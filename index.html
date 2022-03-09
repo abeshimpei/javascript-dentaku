@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+     <link rel="stylesheet" href="main.css">
+     <title>電卓</title>
+</head>
+　<body>
+　 <div class = dentaku>
+　  <input type="text" id="result" value="0">
+　  <div>
+      <input class="dentakubutton" type="button" value="7" onclick="number(this)">
+      <input class="dentakubutton" type="button" value="8" onclick="number(this)">
+      <input class="dentakubutton" type="button" value="9" onclick="number(this)">
+      <input class="dentakubutton" type="button" value="/" onclick="operator(this)">
+    </div>
+    <div>
+     <input class="dentakubutton" type="button" value="4" onclick="number(this)">
+     <input class="dentakubutton" type="button" value="5" onclick="number(this)">
+     <input class="dentakubutton" type="button" value="6" onclick="number(this)">
+     <input class="dentakubutton" type="button" value="*" onclick="operator(this)">
+    </div>
+    <div>
+     <input class="dentakubutton" type="button" value="1" onclick="number(this)">
+     <input class="dentakubutton" type="button" value="2" onclick="number(this)">
+     <input class="dentakubutton" type="button" value="3" onclick="number(this)">
+     <input class="dentakubutton" type="button" value="-" onclick="operator(this)">
+    </div>
+    <div>
+     <input class="dentakubutton" type="button" value="0" onclick="number(this)">
+     <input class="dentakubutton" type="button" value="00" onclick="number(this)">
+     <input class="dentakubutton" type="button" value="." onclick="number(this)">
+     <input class="dentakubutton" type="button" value="+" onclick="operator(this)">
+    </div>
+    <div>
+     <input class="clear" type="button" value="AC" onclick="acBtn()">
+     <input class="enter" type="button" value="=" onclick="equalBtn()">
+   </div>
+  </div>
+　    <script src="main.js"></script>
+
+
+  </body>
+</html>
